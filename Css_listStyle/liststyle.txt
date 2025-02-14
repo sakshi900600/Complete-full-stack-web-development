@@ -1,0 +1,7 @@
+list-style is used to style li.
+
+list-style-position: We can use it to take marker inside/outside. outside(by default)
+
+list-style-type: can use disc/1/a or other also emoji 
+
+list-style-image: to set image 

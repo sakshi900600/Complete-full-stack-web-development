@@ -1,0 +1,12 @@
+animation can be created using @keyframes name{property like-transition,transform..}
+
+animation-name: u will not directly show any effect so u have to set animation-duration.
+
+animation-iteration-count:3../infinite; animation will repeat 3times & will be for infinite
+
+animation-direction:normal/reverse/alternate/alternate-reverse/backwards
+forwards: box will move & stop after 3s
+
+animation-fill-mode: default(none)
+
+u can use multiple animation by seperating them with coma

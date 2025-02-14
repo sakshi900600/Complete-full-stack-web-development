@@ -1,0 +1,17 @@
+Mouse Events:
+// List of all mouse events 
+// https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events
+
+
+1. click -  on click fun will fire
+2. dblclick-   on double click fun will fire
+3. contextmenu - on right click fun will fire
+
+//keyboard events
+1. keydown - any key press from keyboard
+
+
+//form events
+1. submit-
+2. focus-
+

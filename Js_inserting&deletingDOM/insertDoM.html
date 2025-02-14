@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM - inserting and deleting elem using js</title>
+</head>
+
+<style>
+    .red{
+        color: red;
+    }
+</style>
+
+<body>
+    <!-- document.designMode = "on" -->
+
+    <div class="container red bg-black">
+        <div class="box" style="background-color: purple;"  data-createdBy="Sakshi" data-conceptBy="Sam">This is a box</div>
+
+        <div>this is div</div>
+    </div>
+    
+
+    <script>
+
+        // inserting node
+        // let div = document.createElement("span")
+        // div.innerHTML = "Hey , this is inserted by <b>Sakshi</b>"
+        // div.setAttribute("class", "created");
+        // document.querySelector(".container").append(div)
+        // document.querySelector(".container").prepend(div)
+        // document.querySelector(".container").before(div)
+        // document.querySelector(".container").after(div)
+        // document.querySelector(".container").replaceWith(div)
+
+        // inserting html elem
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("beforebegin", "<b>inseting html elem </b>")
+        cont.insertAdjacentText("afterbegin", "inseting text elem ")
+        // cont.insertAdjacentElement("afterbegin", "heoo")
+
+
+    </script>
+</body>
+</html>

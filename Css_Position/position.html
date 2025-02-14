@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positining property</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.box1{
+    background-color: aqua;
+    /* position: sticky;
+    top: 0px; */
+
+    /* position: relative; */
+    /* z-index: 1; */
+
+    position: absolute;
+    top: 0px;
+    left: 75px;
+
+}
+.box2{
+    background-color: blue;
+    /* position: relative;
+    top: -40px;
+    left: 15px; */
+
+}
+.box3{
+    background-color: blueviolet;
+    /* position: fixed; */
+    /* left: 72px;/ */
+    /* bottom: 12px; */
+}
+.box4{
+    background-color: brown;
+}
+
+.box{
+    border: 2px solid purple;
+    height: 114px;
+    padding: 3px;
+    margin: 4px;
+    width: 60vw;
+}
+.parent{
+    /*exception- transform,filter or prospective properties can also make an elms as positioned */
+    padding: 34px;
+    margin: 45px;
+    border: 2px solid yellow;
+    /* position: absolute; */
+    /* transform: translate(0); */
+    /* filter: invert(0); */
+    perspective: 0cm;
+}
+
+</style>
+
+<body>
+    <div class="parent">
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        
+    </div>
+
+</body>
+</html>

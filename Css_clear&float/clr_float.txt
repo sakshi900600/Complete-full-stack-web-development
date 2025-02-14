@@ -1,0 +1,6 @@
+float:left - will float in left side and allow other content in right
+
+float property me Images overflow kar sakti hai to is problem ko solve karne ke liye   display:(flow-root) ka use karte hai
+
+We use (clear) when we have to decide either another element float in your container or not.
+clear: left, right, both

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition and animation exercise</title>
+</head>
+<style>
+    .container {
+        background-color: blue;
+        height: 80vh;
+        width: 90vw;
+        position: relative;
+    }
+
+    .ball {
+        background-color: red;
+        height: 90px;
+        width: 90px;
+        border-radius: 64px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        /* animation: animateX 3s linear infinite; */
+        /* animation: animateY 1s ease-out infinite; */
+        animation: animateX 5s linear infinite , animateY 1s ease-out infinite alternate;
+    }
+    @keyframes animateX {
+       from{
+        left: 0;
+       }
+       to{
+        left: 100%;
+       }
+    }
+    @keyframes animateY {
+       from{
+        bottom: 0;
+       }
+       to{
+        bottom: 100%;
+       }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>

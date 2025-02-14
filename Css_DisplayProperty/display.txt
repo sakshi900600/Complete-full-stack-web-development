@@ -1,0 +1,8 @@
+1. block - jitna word utna space
+2. inline - takes full width/line.
+we can't set margin/padding top and also width/height when display is inline. so we use inline-block.
+
+3. none - display none that elements will hide and if u set visibility: hidden then element will disappear but there will be a blank space.
+
+4. flex - 
+5. flex-inline - 

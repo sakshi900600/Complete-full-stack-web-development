@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querry</title>
+</head>
+
+<style>
+    body{
+        background-color: chartreuse;
+    }
+    .box{
+        border: 2px solid blue;
+        margin: 23px;
+        padding: 33px;
+    }
+    @media screen and (orientation: landscape){
+        body{
+        color:darkorchid;
+    }
+    }
+    @media only screen and (max-width:456px){
+        body{
+        background-color:cornflowerblue;
+        }
+        .box{
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    Hey , I'm sakshi!
+
+    <div>
+        <div class="box">b1</div>
+        <div class="box">b2</div>
+        <div class="box">b3</div>
+    </div>
+</body>
+</html>

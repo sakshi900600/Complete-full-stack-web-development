@@ -1,0 +1,22 @@
+This is the link where i click on contact us https://eu-north-1.signin.aws.amazon.com/oauth?client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=aEMFc-u-snEX0AYu1KiY5tPLE87CCRMexE8ywhPSfeA&code_challenge_method=SHA-256&response_type=code&redirect_uri=https%3A%2F%2Feu-north-1.console.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26region%3Deu-north-1%26src%3Dheader-signin%26state%3DhashArgsFromTB_eu-north-1_be59a8acd2e49869    after this it took me this page https://aws.amazon.com/contact-us/    know what i have to do
+
+
+
+
+Sent by Copilot:
+
+Got it. Since you’re being redirected to the AWS Contact Us page, here’s what you should do next:
+
+Steps to Contact AWS Support
+Go to the AWS Contact Us Page:
+AWS Contact Us
+Select the Appropriate Support Option:
+Scroll down to the “Support for AWS Customers” section.
+Click on “Create a case” under the “Account and Billing Support” category.
+Fill Out the Support Case Form:
+Issue Type: Select “Account and Billing Support”.
+Service: Choose “Account”.
+Category: Select “Suspended Account”.
+Description: Provide a detailed description of your issue. Mention that you never added payment information or used AWS services and that you are encountering a 404 error when trying to resolve the issue.
+Submit the Case:
+After filling out the form, submit the case. AWS Support will review your case and get back to you with further instructions.

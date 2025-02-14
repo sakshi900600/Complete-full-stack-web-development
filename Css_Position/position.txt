@@ -1,0 +1,12 @@
+Position:
+1. static - by default we can't move elements in this property
+
+2. relative - for seting top,left,right,bottom. also for setting z-index
+z-index - kon kiske upper ya niche hoga
+
+3. absolute - nearest positon ancestor ke respect me Position set hogi
+
+4. fixed - that element will stick on the page. either u scroll the page(tighting a with a screw)
+
+5. sticky - elems will stick only when u scroll after that elems.
+

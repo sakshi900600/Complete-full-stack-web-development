@@ -1,0 +1,13 @@
+
+    1. vw - view port ki width ke crossponding width
+    2. vh - view port ki height ke crossponding height
+    3. em -  ()gunna size of px. let size=12px then size=2em will take 12*2=24px as size
+    4.rem - 
+    5. vmin,vmax - in computer height is less and width is high but in mobile height is big and width is small so we use this to make responsive
+    its also = vh,vw in same device
+    
+    min-height,min-width: minimum height will be value u set but it can go out of value if there is more content
+
+    % unit - It takes _% of their parents height/width. parents height/width should be set for using %.
+    
+     

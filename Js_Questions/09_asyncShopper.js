@@ -1,0 +1,1 @@
+// Imagin you are building an online shopping application. Write an asynchrounous function called placeOrder that simulates placing an order and returns a promise. The Promise should resolve with an order confirmation message after a random delay

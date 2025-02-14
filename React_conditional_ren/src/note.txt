@@ -1,0 +1,6 @@
+Two ways of rendering:
+1. if u want to use if-else both:  ?:
+2. if u want to use only if: &&
+
+how to render a list using map(todo)
+u have to give (unique) key prop

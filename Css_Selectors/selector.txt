@@ -1,0 +1,22 @@
+class selector: .with name
+id selector: #with name
+universal selector: *
+
+element selector: element name like div
+
+child selector: ex- (div>p) if p is direct child of div then apply property
+
+descedent selector: (div p) if p is in div either directly or indirectly then apply property
+
+:first-child - if element is first child then property will be applied (ex- here box is first child so property will be applied).
+
+:nth-child(value) - if value match then property will apply
+value - 1,2.. or even/odd
+
+attribute selector - []
+
+pseudo elements:
+::before - indert element before
+::after - insert element after
+
+::selection - will apply property on selected element

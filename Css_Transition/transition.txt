@@ -1,0 +1,15 @@
+transition: ek state se dusre state me smoothly jana
+
+transition on transform
+
+1. transition-property:
+2. transition-duration:
+3. transition-timing-function:
+4. transition-delay:
+
+transition-timing-function:
+a. ease-in:
+b. ease-out:
+c. ease-in-out:
+d. ease:
+e. and many more u can create

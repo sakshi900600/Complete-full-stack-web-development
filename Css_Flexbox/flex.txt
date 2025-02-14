@@ -1,0 +1,30 @@
+alt + shift + down arrow - for replicate line
+always apply this property on container not that item you want to center
+
+display: flex - content will be L To R in the container
+
+justify-content:center - horizontally center
+there is no justify-items in flexbox.
+
+align-item:center - vertically center(for single line)
+
+property use with jc/ai/ac - flex-start, flex-end, space-between/around 
+
+flex-direction: (by default L to R) row/column, row/column-reverse
+
+justify-content work according to the main axis. main axis will be flex-direction.
+
+flex-wrap:wrap/nowrap - overflow hone par content 2nd line me shift ho gaye
+
+align-content:center - multiple lines ko ek sath lane ke liye/center larne ke liye. 
+
+gap - use for gap b/n items
+
+
+property of items
+1. Order:1/2/3..  (default order=0) least order comes first and vice versa
+
+flex-grow:1/2 - jitni value utne items ki space lega
+
+flex-shrink - jitni value hogi utni speed se chota hoga screen size change hone par
+

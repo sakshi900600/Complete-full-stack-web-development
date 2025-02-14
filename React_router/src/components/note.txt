@@ -1,0 +1,8 @@
+1. build react app
+
+wheneveer we click on home or about our page reloads 
+2.  npm i react-router-dom 
+
+use (Link to) instead of (a href)
+
+to indicate which page is active use NavLink with calssname  instead Link 

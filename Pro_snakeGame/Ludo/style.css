@@ -1,0 +1,29 @@
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player1 { background: blue; }
+.player2 { background: green; }
+.player3 { background: red; }
+.player4 { background: yellow; }
+
+.token {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}

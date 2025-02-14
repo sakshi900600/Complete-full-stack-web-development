@@ -1,0 +1,6 @@
+Box shadow - h-offset, v-offset,blur,spreadcolor, inset/offset
+Inset - andar ki taraf
+offset - bahar ki taraf(by default)
+
+outline - use to give outline
+outline-offset : to give outline outside the box.

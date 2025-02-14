@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #002329;
+    color: white;
+}
+
+.container{
+    margin: 15%;
+    width: 80%;
+    /* max-width: 700px; */
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h1 span{
+    color: #019f55;
+    /* border-bottom: 4px; u can do it to */
+}
+
+h1 span::after{
+    content: '';
+    display: flex;
+    margin-top: 7px;
+    height: 3px;
+    background: #019f55;
+    width: 35%;
+    border-radius: 4px;
+}
+
+.display{
+    margin-top: 47px;
+    margin-bottom: 15px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 19px;
+}
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.container button img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.container button{
+    margin-top: 20px;
+    padding: 10px 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #019f55;
+    color: white;
+    border: none;
+    outline: 0;
+    font-size: 23px;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+}

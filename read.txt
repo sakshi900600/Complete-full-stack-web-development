@@ -1,0 +1,18 @@
+Installation of vscode
+Basic structure of website
+Heading, Paragraphs, links
+Images,lists,tables
+SEO and core web vitals
+Forms and input tags ------
+Inline & block elements
+Id and class
+video, audio and media
+Semantic tags -----
+Exercise1
+html entities -----
+Inline, internal and external css
+Selectors
+Box model
+Text and color ----
+css specify and cascade
+Sizing units

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object fit and position </title>
+</head>
+
+<style>
+.container{
+    height: 334px;
+    width: 334px;
+    border: 2px solid black;
+    /* background-color: azure; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkL_Ns6zGNiEwT-aRnMR109YSYYSg9a7Dxg&usqp=CAU");
+    /* background-position: center center; */
+    background-repeat: repeat-x;
+    /* background-repeat: no-repeat; */
+
+    /* background-clip: border-box; */
+    background-clip: padding-box;
+}
+
+img{
+    height: 334px;
+    width: 334px;
+    object-fit: cover;
+    /* object-fit: none; */
+    /* object-fit: contain; */
+    /* object-position: bottom right; */
+    /* object-position: top right; */
+    /* object-position: 50% 40%; */
+}
+</style>
+
+<body>
+    <div class="container">
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkL_Ns6zGNiEwT-aRnMR109YSYYSg9a7Dxg&usqp=CAU" alt=""> -->
+
+
+    </div>
+</body>
+</html>

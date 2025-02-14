@@ -1,0 +1,1 @@
+// The Shopping Cart Totalizer: You are working on an e-commerce webstie and you need to calculate the total cost of items in the shopping cart. Implemtn a funciton named calculteTotal that takes an arry of products with prices and qualities and returns the total cost.

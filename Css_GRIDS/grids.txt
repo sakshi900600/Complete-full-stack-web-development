@@ -1,0 +1,14 @@
+display:grid
+u can define how many row n column u want.
+
+Grid line&cell - lines in grid are grid lines and every cell is called grid cell
+
+Grid track & Area - area b/n two grid lines is grid track and any area in grid is grid area.
+
+grid-template-row/column - to define how many row/column u want
+
+gird row/column - kitni space lega
+
+
+                fr units
+units use in grid. it means takes ..fr guna of available space.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> More on Css selectors</title>
+</head>
+
+<style>
+/* .box:first-child{
+    background-color: red;
+}
+.box:first-line{
+    color: cornflowerblue;
+} */
+/* .boxes *{
+    border: 2px solid black;
+    padding: 12px;
+} */
+
+/* [data-color="primary"]{
+    padding-top: 64px;
+} */
+
+/* p,.box,[data-color="primary"]{
+    /* grouping of selectors */
+    /* padding-top: 64px;
+} */ 
+/* .box:nth-child(odd){
+    background-color: aqua;
+} */
+
+/* .box:nth-last-child(2){
+    background-color: aqua;
+} */
+
+.boxes::before{
+    content: "Hey this is sakshi.";
+}
+.boxes::after{
+    content: "Hey this is sakshi.";
+}
+::selection{
+    background-color: chartreuse;
+    color: cadetblue;
+}
+.box::first-letter{
+    color: blueviolet;
+    font-size: 56px;
+}
+input::placeholder{
+    color: blue;
+}
+</style>
+<body>
+    
+    <div class="boxes">
+        <div  data-color="primary"   class="box">this a first box</div>
+        <div class="box">this is second box</div>
+        <div class="box">this is third box</div>
+    </div>
+    <input type="text" placeholder="enter your name">
+
+</body>
+</html>

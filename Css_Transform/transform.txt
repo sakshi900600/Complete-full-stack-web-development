@@ -1,0 +1,11 @@
+2 type of transform:
+2D transform: transform content in x,y direction.ex- translate, rotate, skew,scale.
+3D transform: manipulate content in x,y,z direction / 3D effect.
+
+transform property:
+1. rotate(deg): rotate elems acc to degree.
+2. scale(val): elem will val gunna larger.
+3. skew(deg): diagonal ko kichna
+4. translate(val%):
+5. transform-origin: use to specify point from which u have to rotate ur elems.by default it is 50% 50%
+

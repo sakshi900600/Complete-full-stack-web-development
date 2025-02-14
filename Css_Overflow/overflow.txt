@@ -1,0 +1,13 @@
+We can use overflow property when our content is going outside the Box
+
+overflow:overflow-x,overflow-y for individual
+
+auto - when content go outside the box then automatically create scrollbar otherwise no scrollbar
+
+scroll - create scrollbar either content is overflowing or not
+
+hidden - ... will appear
+
+white-space: nowrap - all text will display in a line or only horizontal scrollbar
+
+text-overflow: ellipsis - ... will appear

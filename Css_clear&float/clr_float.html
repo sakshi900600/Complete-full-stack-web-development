@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear and float tutorial</title>
+</head>
+
+<style>
+    .cards{
+        border: 2px solid black;
+        display: flow-root;
+    }
+    .card{
+        border: 2px solid blue;
+    }
+img{
+    float: left;
+    /* float: right; */
+}
+.card:nth-child(3){
+    /* clear: right; */
+    clear: both;
+    background-color: darkmagenta;
+}
+</style>
+
+<body>
+<div class="cards">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBL0NA9CkWLirMC8voHgKDoU3hoGnkGkLI9Q&usqp=CAU" alt="">
+    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta voluptas enim aperiam earum aut quibusdam nulla delectus, nam pariatur! Sit, perferendis. Voluptates repellat ad ipsum sint iste laborum nam!</div>
+    <div class="card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit consequatur ullam perferendis delectus obcaecati dolore? Exercitationem fugiat soluta ea atque sequi eos rem, alias quam pariatur ipsam quidem quibusdam, aspernatur porro distinctio quisquam nesciunt placeat qui quos debitis ipsa. Nesciunt expedita corrupti eveniet dolore id! Beatae nulla eum, rerum deleniti veritatis temporibus! Natus, numquam a. Ullam est a fugiat doloribus libero, nemo hic temporibus, quo fugit, inventore corrupti. Doloremque, ullam beatae! Aut, corporis sint. Reprehenderit aliquam architecto minima cum est, fuga officiis similique id nesciunt possimus libero molestiae nobis placeat. Officiis cupiditate a fuga blanditiis ad dolore ea ex veritatis dolor optio ullam rem natus tempore, dolorum necessitatibus nostrum sint voluptatem tenetur perspiciatis asperiores ducimus deserunt accusamus odit! Perspiciatis dicta rerum eos cupiditate.</div>
+    <div class="card">Card 3</div>
+</div>    
+</body>
+</html>

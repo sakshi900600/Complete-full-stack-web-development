@@ -1,0 +1,40 @@
+1.  .innerHTML - gives inner html / html inside elem (we can also change html)
+2.  .outerHTML - giver inner html including self
+3.  .tagName - return tag name like div. it doesn't return comment or any node
+4.  .nodeName- return node name like comment
+5.  .textContent-  return text
+6.  .hidden - hide elem
+7.  .hasAttribute - checks if selected elem has attribute (like style) 
+8.  .getAttribute - return attribute
+9.  .setAttribute - u can set attribute ()
+10. .attribute - return all attribute
+11. .removeAttribute - remove attribute
+
+
+
+//data attribute
+.dataset     : to store some information
+
+
+//insertion node
+.append() - elem will append at last
+.prepend() - insert at beg of node
+.before() - indert before node  
+.after() -  insert after node
+.replaceWith() - replace elem
+
+//inserting html element
+cont.insertAdjacentHTML
+1.  "beforeend"
+1.  "aftereend"
+1.  "beforebegin"
+1.  "afterbegin"
+
+//className and classList
+1.  elem.classList
+2.  elem.className
+3.  elem.classList/className.remove/add
+
+ek class ek hi bar add hogi.
+
+

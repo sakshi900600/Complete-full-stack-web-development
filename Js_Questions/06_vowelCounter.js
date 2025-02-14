@@ -1,0 +1,1 @@
+// The Vowel Counter: You need to ceate a function that counts the number of vowels in a given string. Consider both uppercase and lowercase vowels.

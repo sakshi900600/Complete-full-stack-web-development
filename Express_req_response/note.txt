@@ -1,0 +1,11 @@
+requests:
+1. get - it can be check through browser
+2. post - to send sensitive info to server like password
+3. put - to edit 
+4. delete -
+
+chaining requests - we can chain req through app.get().post. and so on
+
+serving html/json files - 
+
+express router -

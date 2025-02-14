@@ -1,0 +1,7 @@
+Let one color you use 30times in your website and now u want to change then you will not change 30 times. here variables are used
+It can be created using :root{prop}
+and use as var(prop)
+
+if any variable is not decleared and u're using then u can write as var(--color(var_name),blue(another_col))
+
+It can hold all the properties.

@@ -1,0 +1,8 @@
+CSS Filters: 
+blur(2px): 
+brightness(12%)
+contrast(2%)
+grayscale() - black n white
+sepia()
+invert()
+opacity(): 0-img will disappear and 1-img will appear and 0.1..  

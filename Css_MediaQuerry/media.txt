@@ -1,0 +1,10 @@
+media query is used to make website responsive so that it can look better in all devices.
+
+@media not|only mediaType and (expression)
+CSS code;
+
+orientation: landscape / Portrait
+
+mediaType - screen, only screen
+
+expression - max-width, min-width...

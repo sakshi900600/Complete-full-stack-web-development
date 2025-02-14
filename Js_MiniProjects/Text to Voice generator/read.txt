@@ -1,0 +1,15 @@
+1. first i add a div with hero class name
+2. do stylling on hero with 100vh height
+3. Add a heading & all html markup
+
+4. add img inside button & style them
+style select & add img in select
+
+5. create js file
+
+
+js
+
+1. first use api for speech
+
+2. then for multiple voice slection write js

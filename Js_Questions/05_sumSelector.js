@@ -1,0 +1,1 @@
+// The Sum Selector: You are working on a function that should sum all numbers inan array until it encunters a negative number. Write a function that performs this summation.

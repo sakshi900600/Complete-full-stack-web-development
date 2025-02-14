@@ -1,0 +1,7 @@
+Object-fit: default(fill)
+scale-down
+cover - img will be croped
+Object-fit: contain - img will not croped
+
+Object-position: top right..
+with the help of this u can decide which part should be shown 

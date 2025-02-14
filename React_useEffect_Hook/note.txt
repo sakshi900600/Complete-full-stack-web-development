@@ -1,0 +1,5 @@
+main.jsx me strictMode do bar chalata hai islea starting me alert do bar aata hai
+
+shortcut for jsx = rafce
+
+unmounted - content/navbar hat gana

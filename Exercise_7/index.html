@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> layout using grid</title>
+</head>
+
+<style>
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 94px;
+    margin-bottom: 36px;
+}
+.text-box img{
+    margin-right: 5px;
+}
+.text-box h3{
+    font-size: 23px;
+    margin-left: 22px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-box span{
+    font-size: 12px;
+    color: #222222;
+}
+
+/* container styling */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+}
+.container .box1 h2{
+    margin-bottom: 65px;
+    text-align: center;
+}
+.box{
+    background-color: #f9f9f9;
+    padding: 23px;
+    height: 20vh;
+    width: 22vw;
+   text-align: center;
+   margin: 12px;
+
+}
+.box h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.box p{
+    font-size: 11px;
+    margin-bottom: 35px;
+}
+.box .blue{
+    text-decoration: none;
+    background-color: #00b6d1;
+    color: white;
+    border-radius: 5px;
+    padding: 9px 13px;
+    font-size: 12px;
+    margin: 3px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box .blue:hover{
+    background-color: rgb(24, 161, 215);
+}
+.box .green{
+    text-decoration: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    padding: 9px 13px;
+    font-size: 12px;
+    margin: 3px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box .green:hover{
+    background-color: #71d271;
+}
+
+
+@media only screen and (max-width:700px) {
+    .box{
+       display: grid;
+    }
+}
+</style>
+
+<body>
+    
+    <div class="text-box">
+        <img src="	https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" alt="">
+        <h3>Download UltraEdit <span>v2023.1(released 08/16/2023) | Hotfix </span> </p>
+    </div>
+
+    <div class="container">
+
+        <div class="box box1">
+            <h2>English</h2>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box box2">
+            <h2>Deutsch</h2>
+            <p>German</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box box3">
+            <h2>Italiano</h2>
+            <p>Italian</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>Español</h2>
+            <p>Spanish</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>français</h2>
+            <p>French</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>Português brasileiro</h2>
+            <p>Brazilian Portuguese</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>日本</h2>
+            <p>Japanese</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>한국어</h2>
+            <p>Korean</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>中国</h2>
+            <p>Chinese</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+        <div class="box">
+            <h2>中國</h2>
+            <p>Traditional Chinese</p>
+            <a href="" class="blue">Download 32-bit</a>
+            <a href="" class="green">Download 64-bit</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
